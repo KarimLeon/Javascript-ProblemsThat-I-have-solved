@@ -1,7 +1,7 @@
-var y = " "
+var y = ""
 for(var x = 1; x <= 7; x++) {
 
-    y += " # "
+    y += "#"
 	
     console.log(y);
     
