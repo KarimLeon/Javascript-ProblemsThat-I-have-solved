@@ -11,7 +11,7 @@ for(var b = 0; b < array.length; b++) {
          if(array[b] != '\n') 
             arr1.push(array[b]);
         else
-          arr1.push([[arr1[b]]]);
+            arr1.push([array[b]])
 
 
         
