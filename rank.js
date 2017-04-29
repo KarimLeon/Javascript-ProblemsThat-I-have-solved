@@ -43,3 +43,4 @@ for(var b = 0; b < array.length; b++) {
 console.log(arr1);
 };
 
+s
