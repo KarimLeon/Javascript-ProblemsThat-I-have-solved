@@ -7,8 +7,13 @@ function processData(input) {
 };
 
 for(var i = 0; i < array.length; i++) {
-      var a  = array.join("")
+     array2.push(array[i]);
+
+     if(array2[i] )
+      
+     
 }
 
-console.log(a)
+
+console.log(array2)
 };
