@@ -5,18 +5,14 @@ function processData(input) {
       array.push(input[i]);
 
 };
+for(var i = 0; i < array.length; i++)  {
+     if(array[i] != '\n')
+         arr1.push(array[i]);
+};
 
-for(var i = 0; i < array.length; i++) {
-     array2.push(array[i]);
-
-     if(array2[i] != '\n') 
-            arr1.push(array2[i]);
-     else 
-          break;
-      
-     
-}
 
 console.log(arr1);
 
-};
+
+
+}
