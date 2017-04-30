@@ -1,4 +1,4 @@
-function Vector(x, y) {
+function Vector(x, y) {   
   this.x = x,
   this.y = y 
 }; 
@@ -15,3 +15,6 @@ console.log(new Vector(1, 2).minus(new Vector(2, 3)));
 // → Vector{x: -1, y: -1}
 console.log(new Vector(3, 4).length);
 // → 5
+
+
+// Still working on it...
