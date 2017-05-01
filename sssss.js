@@ -1,12 +1,12 @@
-var size = 4, y = "", b = ""
 
-for(var x = 0; x < size; x++) {
-        if(y.length == 4)
-             b+= '\n';
-           
-for(var i = 0; i < size; i++) { 
-       y += " #";
+var size = 8; y = "", b = " #"
+ for(var x = 0; x < size; x++) { 
+ for(var i = 0; i < size; i++) {
+         if(i % x)
+            y += " #";
+         else 
+            y+= '\n'
 };
-}; 
+ };
 
 console.log(y);
