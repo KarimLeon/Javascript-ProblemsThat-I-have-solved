@@ -1,12 +1,14 @@
-var y = "",  size = 8
 
-for(var x = 0; x < size; x++) {
-          if(y == " ")
-          y+= '\n';
-for(var i = 0; i < size; i+=2) { 
-        y += "# ";
+var y = "", a = ""
 
+for(var i = 0; i < 8; i++) {
+       if(y == 8)
+           y += '\n'
+            
+  for(var e = 0; e < 8; e+=2) {
+         y += ' #';
+  }
 }; 
-};
-console.log(y)
 
+console.log(y)
+       
